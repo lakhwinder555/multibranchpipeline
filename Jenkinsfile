@@ -15,6 +15,10 @@ pipeline {
             when {
                 branch 'staging'
             }
+            steps {
+                echo 'Deploying...'
+               
+            }
         }
     }
 }
